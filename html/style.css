@@ -1,0 +1,139 @@
+body {
+  background: none !important;
+}
+
+@font-face {
+  font-family: policeFont;
+  src: url(./Oswald-Regular.ttf);
+}
+
+#track-container {
+  position: fixed;
+  left: 15%;
+  top: 15%;
+  height: 35%;
+  width: 35%;
+  border-radius: 0.5vh;
+  display: none;
+}
+
+.tracker-police {
+  position: auto;
+  left: 30.2%;
+  top: 60%;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #bebebe;
+}
+
+.tracker-police-sub {
+  position: fixed;
+  left: 40%;
+  top: 18%;
+  font-size: 50px;
+  font-family: policeFont;
+  color: #bebebe;
+}
+
+.tracker-body {
+  position: fixed;
+  left: 28.5%;
+  top: 29.1%;
+  height: 20.6%;
+  width: 35.6%;
+  background-color: #43434370;
+}
+
+.tracker-search-input {
+  position: fixed;
+  left: 35.5%;
+  top: 33%;
+  height: 5%;
+  width: 22%;
+  color: white;
+  border: #58171700;
+  background-color: #bebebe;
+  transition: .2s;
+}
+
+.tracker-search-input:hover{
+  background-color: #949494;
+  transition: .2s;
+}
+
+.tracker-button-save {
+  position: fixed;
+  border-radius: 4px;
+  left: 36.5%;
+  top: 40%;
+  height: 5%;
+  width: 20%;
+  background-color: #80808082;
+  border: #ff000000;
+  color: #bebebe;
+  font-family: policeFont;
+  font-size: 20px;
+  border-width: 2px;
+  transition: .3s;
+}
+.text-tracker-button-save{
+  font-size: 20px;
+  font-weight: 500;
+  color:#bebebe;
+  position: absolute;
+  top: 12px;
+  right: 160px;
+  transition: .3s;
+}
+.text-tracker-button-save:hover{
+  border-radius: 4px;
+  transition: .3s;
+cursor: pointer;
+}
+
+.tracker-button-save:hover{
+  border-radius: 4px;
+  transition: .3s;
+  background-color: #581717;
+	box-shadow: 0px 0px 10px #ffffffdd;
+  cursor: pointer;
+}
+
+
+.tracker-plate-error {
+  position: fixed;
+  left: 37%;
+  top: 45%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #971d1d;
+  display: none;
+}
+
+.tracker-plate-search {
+  position: fixed;
+  left: 30%;
+  top: 41%;
+  font-size: 25px;
+  font-family: policeFont;
+  color: #581717;
+  display: none;
+}
+
+.tracker-plate-max {
+  position: fixed;
+  left: 30%;
+  top: 41%;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+   display: none;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+input {
+  text-align: center;
+}
